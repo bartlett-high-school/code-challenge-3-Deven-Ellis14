@@ -1,3 +1,117 @@
-/* Put your css here for your table and page styling */
-<style>
-   </style>
+body {
+	background-color:#7a0d18;
+} 
+
+h1 {
+	font-family : 'Montserrat' , sans-serif;
+    border-bottom: 5px solid #000;
+}
+
+ p{
+ 	font-family : 'Montserrat' , sans-serif;
+ }
+
+ header img {
+    width: 15%;
+    max-width: 150px;
+    float: left;
+ }
+
+ header .main-nav {
+    width: 85%;
+    float: left;
+    text-align: right;
+ }
+
+header .main-nav li {
+    display: inline-block;
+    margin: 0 0 0 30px;
+}
+
+header .main-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ .clear {
+    clear: both;
+ }
+
+ #first-section {
+    width: 60%;
+    margin: 100px auto;
+ }
+
+ #first-section img {
+    width: 100%;
+    height: auto;
+ }
+
+ #second-section {
+    background-color: #fff;
+    padding: 50px;
+    margin: 0 auto;
+    width: 60%;
+ }
+
+#third-section {
+    width: 60%;
+    margin: 100px auto;
+ }
+
+ #third-section img {
+    width: 100%;
+    height: auto;
+ }
+
+ #fourth-section {
+    background-color: #fff;
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+ } 
+ 
+ #about-me-wrap {
+    background-color: #fff;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+} 
+
+  #profile-wrap {
+    width: 40%;
+    margin-right: 10%;
+    float: left; 
+  }
+
+#bio-wrap {
+    width: 50%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+ul.profile-social-links {
+     padding: 0;
+}
+
+ul.profile-social-links li{
+	list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+} 
+
+@media only screen and (max-width: 767px) {
+      #profile-wrap {
+         width: 100%! important;
+         float: none! important;
+         margin-right: 0!important;
+       }
+
+     #bio-wrap {
+         width: 100%! important;
+         float: none! important;
+         margin-top: 50px! important;
+}
